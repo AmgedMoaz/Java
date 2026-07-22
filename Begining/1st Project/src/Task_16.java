@@ -1,4 +1,4 @@
-// Write a program to fill ,display and get sum of 2 Dimensional array items
+// Write a program to fill ,Display ,Search for target and get sum of 2 Dimensional array items
 
 import java.util.Scanner;
 
@@ -13,11 +13,18 @@ public class Task_16 {
         System.out.print("Enter number of columns : ");
         columns = input.nextInt();
         int[][] array = new int[rows][columns];
-        fillArray(array, rows, columns);
-        displayArray(array);
-        int sum = sumArray(array);
-        System.out.print("The sum is : " + sum);
 
+        fillArray(array, rows, columns);
+
+        displayArray(array);
+
+        System.out.println("Enter an item to search ");
+        int key = input.nextInt();
+        searchArray(array, key);
+
+        int sum = sumArray(array);
+        System.out.println("The sum is : " + sum);
+        
     }
 
     static void fillArray(int[][] table, int rows, int columns) {
@@ -37,6 +44,19 @@ public class Task_16 {
             }
             System.out.println();
         }
+    }
+
+    static int searchArray(int[][] table, int target) {
+        for (int i = 0; i < table.length; i++) {
+            for (int j = 0; j < table[i].length; j++) {
+                if (target == table[i][j]) {
+                    System.out.println("target is found in row " + (i + 1) + " and column " + (j + 1));
+                    return i;
+                }
+            }
+        }
+        System.out.println("target not found");
+        return -1;
     }
 
     static int sumArray(int[][] table) {
