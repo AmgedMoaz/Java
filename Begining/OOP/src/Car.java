@@ -27,12 +27,10 @@ public class Car {
     }
 
     // Getter methods
-    public int get_model(int mo) {
-        model = mo;
+    public int get_model() {
         return model;
     }
-    public String get_maker(String m) {
-        maker = m;
+    public String get_maker() {
         return maker;
     }
 
