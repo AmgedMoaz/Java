@@ -20,6 +20,10 @@ public class Employee {
        }
      */
 
+    public Employee() {
+
+    }
+
     public Employee(int i , String n) {
         id = i;
         name = n;
@@ -40,7 +44,7 @@ public class Employee {
         System.out.println("Employee id is : " + id);
         System.out.println("Employee salary is : " + salary);
         System.out.println("Employee bonus is : " + bonus);
-        System.out.println("Employee case is : " + isActive);
+        System.out.println("Employee case is : " + isActive + "\n");
     }
 
 }

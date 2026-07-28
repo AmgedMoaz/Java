@@ -25,6 +25,7 @@ public class Main {
       System.out.println("Rectangle Area is : " + rectArea);
      */
 
+     /*
       System.out.print("Enter car model : ");
       int model = input.nextInt();
       System.out.print("Enter car maker : ");
@@ -51,7 +52,19 @@ public class Main {
       m = ob1.get_maker();
       System.out.println("The car maker of object 1 is : " + m);
       System.out.print("The model of ob1 after modified : " + mo);
+      */
 
+      Employee ob = new Employee();
+      ob.display();
+
+      ob = new Employee(152300032,"Amged");
+      ob.display();
+
+      ob = new Employee(152300032,"Amged",12000.4);
+      ob.display();
+
+      ob = new Employee(152300032,"Amged",12000.4,0.40f,true);
+      ob.display();
   }
 
 }
