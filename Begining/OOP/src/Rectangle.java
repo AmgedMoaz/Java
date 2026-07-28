@@ -1,3 +1,5 @@
+ // Write a simple class about rectangle
+
 public class Rectangle {
     private double width;
     private double length;
