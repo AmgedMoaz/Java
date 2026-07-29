@@ -1,4 +1,4 @@
- // Write a simple Employee class and the default constructor and call constructor within another constructor
+ // Write a simple class and the default constructor and call constructor within another constructor
 
 public class Employee {
 

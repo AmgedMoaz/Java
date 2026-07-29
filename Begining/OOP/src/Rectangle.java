@@ -1,4 +1,4 @@
- // Write a simple class about rectangle and show Setter & Getter methods
+ // Write a simple class and show Setter & Getter methods
 
 public class Rectangle {
     private double width;

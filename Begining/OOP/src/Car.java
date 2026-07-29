@@ -1,4 +1,4 @@
- // Write a simple class about car and use constructor
+ // Write a simple class and use constructor
 
 public class Car {
 
