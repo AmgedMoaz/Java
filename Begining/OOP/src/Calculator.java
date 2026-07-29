@@ -19,5 +19,8 @@ public class Calculator {
     public static double division(double number_1, double number_2) {
         return (number_1 / number_2);
     }
+    public static double modlus(double number_1, double number_2) {
+        return (number_1 % number_2);
+    }
 
 }
