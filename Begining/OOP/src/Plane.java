@@ -2,10 +2,17 @@
 
 public class Plane {
 
+    // fields
     private int model;
     private String maker;
     private static int no_of_planes;
 
+    // Default constructor
+    public Plane() {
+       no_of_planes++;
+    }
+
+    // Overloading constructor
     public Plane(int mo , String m) {
         model = mo;
         maker = m;
