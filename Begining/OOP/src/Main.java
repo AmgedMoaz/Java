@@ -67,6 +67,48 @@ public class Main {
       ob = new Employee(152300032,"Amged",12000.4,0.40f,true);
       ob.display();
        */
+
+      int no = Plane.get_no_of_planes();
+
+      Plane Ex = new Plane();
+
+      System.out.print("Enter plane maker 1 : ");
+      String ma = input.next();
+      System.out.print("Enter plane model 1 : ");
+      int mo = input.nextInt();
+      Plane ob = new Plane(mo,ma);
+
+      System.out.print("Enter plane maker " + Plane.get_no_of_planes() + " : ");
+       ma = input.next();
+      System.out.print("Enter plane model " + Plane.get_no_of_planes() + " : ");
+       mo = input.nextInt();
+      Plane ob1 = new Plane(mo,ma);
+
+      System.out.print("Enter plane maker " + Plane.get_no_of_planes() + " : ");
+      ma = input.next();
+      System.out.print("Enter plane model " + Plane.get_no_of_planes() + " : ");
+      mo = input.nextInt();
+      Plane ob2 = new Plane(mo,ma);
+
+      System.out.print("Enter plane maker " + Plane.get_no_of_planes() + " : ");
+      ma = input.next();
+      System.out.print("Enter plane model " + Plane.get_no_of_planes() + " : ");
+      mo = input.nextInt();
+      Plane ob3 = new Plane(mo,ma);
+
+          System.out.println("The Plane 1 maker is : " + ob.get_maker() );
+          System.out.println("The Plane 1 model is : " + ob.get_model() );
+          System.out.println();
+          System.out.println("The Plane 2 maker is : " + ob1.get_maker() );
+          System.out.println("The Plane 2 model is : " + ob1.get_model() );
+          System.out.println();
+          System.out.println("The Plane 3 maker is : " + ob2.get_maker() );
+          System.out.println("The Plane 3 model is : " + ob2.get_model() );
+          System.out.println();
+          System.out.println("The Plane 4 maker is : " + ob3.get_maker() );
+          System.out.println("The Plane 4 model is : " + ob3.get_model() );
+          System.out.println();
+
   }
 
 }
