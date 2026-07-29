@@ -68,6 +68,7 @@ public class Main {
       ob.display();
        */
 
+      /*    [Class Plane ]
       int no = Plane.get_no_of_planes();
 
       Plane Ex = new Plane();
@@ -108,6 +109,18 @@ public class Main {
           System.out.println("The Plane 4 maker is : " + ob3.get_maker() );
           System.out.println("The Plane 4 model is : " + ob3.get_model() );
           System.out.println();
+       */
+
+      System.out.print("Emter a number 1 : ");
+      double num1 = input.nextDouble();
+      System.out.print("Emter a number 2 : ");
+      double num2 = input.nextDouble();
+
+      System.out.println("After addition is : " + Calculator.add(num1,num2));
+      System.out.println("After subtraction is : " + Calculator.subtraction(num1,num2));
+      System.out.println("After multiplication is : " + Calculator.multiply(num1,num2));
+      System.out.println("After division is : " + Calculator.division(num1,num2));
+      System.out.println("After modlus is : " + Calculator.modlus(num1,num2));
 
   }
 
