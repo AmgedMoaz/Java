@@ -7,7 +7,7 @@ public class Main {
 
   public static void main(String[] args) {
 
-    /*
+    /*       [ Class Rectangle ]
      Rectangle ob = new Rectangle();
       System.out.print("Enter double width : ");
       double Width = input.nextDouble();
@@ -25,7 +25,7 @@ public class Main {
       System.out.println("Rectangle Area is : " + rectArea);
      */
 
-     /*
+     /*    [ Class Car ]
       System.out.print("Enter car model : ");
       int model = input.nextInt();
       System.out.print("Enter car maker : ");
@@ -54,6 +54,7 @@ public class Main {
       System.out.print("The model of ob1 after modified : " + mo);
       */
 
+      /*      [ Class Employee ]
       Employee ob = new Employee();
       ob.display();
 
@@ -65,6 +66,7 @@ public class Main {
 
       ob = new Employee(152300032,"Amged",12000.4,0.40f,true);
       ob.display();
+       */
   }
 
 }
