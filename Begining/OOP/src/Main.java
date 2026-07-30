@@ -160,7 +160,7 @@ public class Main {
       */
       System.out.println("\n");
 
-      /* Shape 3
+      // Shape 3
       ob1 = new Hall(100,110);
       ob2 = new Hall(110,120);
       ob2 = ob1.Add(ob2);
@@ -168,7 +168,7 @@ public class Main {
       System.out.println("The total hall width is : " + ob2.get_Width() + " m");
       System.out.println("The total hall Length is : " + ob2.get_Length() + " m");
       System.out.println("\n");
-       */
+
 
   }
 
