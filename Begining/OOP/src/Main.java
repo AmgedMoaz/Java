@@ -124,7 +124,15 @@ public class Main {
       System.out.println("After modlus is : " + Calculator.modlus(num1,num2));
        */
 
+      Room ob = new Room(5,4);
+      System.out.printf("The room width is : %d m%n", ob.get_Width());
+      System.out.printf("The room length is : %d m%n", ob.get_Length());
+      System.out.println();
 
+      ob.room_modified(ob);
+      System.out.printf("The room width is : %d m%n", ob.get_Width());
+      System.out.printf("The room length is : %d m%n", ob.get_Length());
+      System.out.println();
 
   }
 
