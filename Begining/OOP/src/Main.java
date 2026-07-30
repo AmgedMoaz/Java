@@ -25,7 +25,7 @@ public class Main {
       System.out.println("Rectangle Area is : " + rectArea);
      */
 
-     /*    [ Class Car ]
+      /*    [ Class Car ]
       System.out.print("Enter car model : ");
       int model = input.nextInt();
       System.out.print("Enter car maker : ");
@@ -124,6 +124,7 @@ public class Main {
       System.out.println("After modlus is : " + Calculator.modlus(num1,num2));
        */
 
+      /*    [ Class Room ]
       Room ob = new Room(5,4);
       System.out.printf("The room width is : %d m%n", ob.get_Width());
       System.out.printf("The room length is : %d m%n", ob.get_Length());
@@ -133,6 +134,14 @@ public class Main {
       System.out.printf("The room width is : %d m%n", ob.get_Width());
       System.out.printf("The room length is : %d m%n", ob.get_Length());
       System.out.println();
+       */
+
+      Hall ob1 = new Hall(40,30);
+      Hall ob2 = new Hall(50,60);
+      Hall ob3 = new Hall();
+      Hall ob4 = ob3.add(ob1,ob2);
+      System.out.println("The total hall width is : " + ob4.get_Width() + " m");
+      System.out.println("The total hall Length is : " + ob4.get_Length() + " m");
 
   }
 
