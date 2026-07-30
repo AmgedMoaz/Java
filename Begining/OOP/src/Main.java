@@ -111,6 +111,7 @@ public class Main {
           System.out.println();
        */
 
+      /*     [ Class Calculator ]
       System.out.print("Emter a number 1 : ");
       double num1 = input.nextDouble();
       System.out.print("Emter a number 2 : ");
@@ -121,6 +122,9 @@ public class Main {
       System.out.println("After multiplication is : " + Calculator.multiply(num1,num2));
       System.out.println("After division is : " + Calculator.division(num1,num2));
       System.out.println("After modlus is : " + Calculator.modlus(num1,num2));
+       */
+
+
 
   }
 
