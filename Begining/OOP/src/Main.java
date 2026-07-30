@@ -169,7 +169,6 @@ public class Main {
       System.out.println("The total hall Length is : " + ob2.get_Length() + " m");
       System.out.println("\n");
 
-
   }
 
 }
