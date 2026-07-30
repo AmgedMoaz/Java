@@ -136,12 +136,39 @@ public class Main {
       System.out.println();
        */
 
+      // Shape 1
       Hall ob1 = new Hall(40,30);
       Hall ob2 = new Hall(50,60);
       Hall ob3 = new Hall();
       Hall ob4 = ob3.add(ob1,ob2);
+      System.out.println("Shape 1");
       System.out.println("The total hall width is : " + ob4.get_Width() + " m");
       System.out.println("The total hall Length is : " + ob4.get_Length() + " m");
+      System.out.println("\n");
+
+      // Shape 2
+      ob1 = new Hall(20,30);
+      ob2 = new Hall(40,50);
+      ob3 = ob1.add(ob2);
+      System.out.println("Shape 2");
+      System.out.println("The total hall width is : " + ob3.get_Width() + " m");
+      System.out.println("The total hall Length is : " + ob3.get_Length() + " m");
+      // also true
+      /*
+      System.out.println("The total hall width is : " + ob1.add(ob2).get_Width() + " m");
+      System.out.println("The total hall Length is : " + ob1.add(ob2).get_Length() + " m");
+      */
+      System.out.println("\n");
+
+      /* Shape 3
+      ob1 = new Hall(100,110);
+      ob2 = new Hall(110,120);
+      ob2 = ob1.Add(ob2);
+      System.out.println("Shape 3");
+      System.out.println("The total hall width is : " + ob2.get_Width() + " m");
+      System.out.println("The total hall Length is : " + ob2.get_Length() + " m");
+      System.out.println("\n");
+       */
 
   }
 
