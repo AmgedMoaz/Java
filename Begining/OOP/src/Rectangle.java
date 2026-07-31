@@ -6,6 +6,9 @@
     private double width;
     private double length;
 
+    // Default constructor
+     public Rectangle() {}
+
     // Copy constructor
     public Rectangle(Rectangle source) {
         length = source.length;
