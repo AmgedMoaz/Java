@@ -7,7 +7,8 @@ public class Main {
 
   public static void main(String[] args) {
 
-    /*       [ Class Rectangle ]
+      /*
+    //    [ Class Rectangle ]
      Rectangle ob = new Rectangle();
       System.out.print("Enter double width : ");
       double Width = input.nextDouble();
@@ -16,6 +17,7 @@ public class Main {
       double length = input.nextDouble();
       ob.set_length(length);
 
+
       double rectWidth =  ob.get_width();
       double rectLength = ob.get_length();
       System.out.println("Rectangle Width is : " + rectWidth);
@@ -23,7 +25,10 @@ public class Main {
 
       double rectArea = ob.Area();
       System.out.println("Rectangle Area is : " + rectArea);
-     */
+
+      Rectangle copyObjrct = new Rectangle(ob);
+      System.out.println("The area of copyConstructor is : " + copyObjrct.Area());
+      */
 
       /*    [ Class Car ]
       System.out.print("Enter car model : ");
@@ -136,6 +141,7 @@ public class Main {
       System.out.println();
        */
 
+      /*
       // Shape 1
       Hall ob1 = new Hall(40,30);
       Hall ob2 = new Hall(50,60);
@@ -153,12 +159,13 @@ public class Main {
       System.out.println("Shape 2");
       System.out.println("The total hall width is : " + ob3.get_Width() + " m");
       System.out.println("The total hall Length is : " + ob3.get_Length() + " m");
+
       // also true
-      /*
-      System.out.println("The total hall width is : " + ob1.add(ob2).get_Width() + " m");
-      System.out.println("The total hall Length is : " + ob1.add(ob2).get_Length() + " m");
-      */
+      // System.out.println("The total hall width is : " + ob1.add(ob2).get_Width() + " m");
+      // System.out.println("The total hall Length is : " + ob1.add(ob2).get_Length() + " m");
+
       System.out.println("\n");
+
 
       // Shape 3
       ob1 = new Hall(100,110);
@@ -168,6 +175,7 @@ public class Main {
       System.out.println("The total hall width is : " + ob2.get_Width() + " m");
       System.out.println("The total hall Length is : " + ob2.get_Length() + " m");
       System.out.println("\n");
+      */
 
   }
 
