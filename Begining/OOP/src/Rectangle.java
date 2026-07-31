@@ -10,6 +10,15 @@ public class Rectangle {
     public void set_length(double l) {
         length = l;
     }
+
+    public boolean isEqual(Rectangle ob) {
+        if(this.length == ob.length && this.width == ob.width) {
+            return true;
+        }else {
+            return false;
+        }
+
+    }
     public double get_width() {
         return width;
     }
