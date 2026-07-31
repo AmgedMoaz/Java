@@ -38,6 +38,15 @@ public class Hall {
         return ob;
     }
 
+    // Add isEqual method to compare between objects
+    public boolean isEqual(Hall ob) {
+        if(this.Width == ob.Width && this.Length == ob.Length) {
+            return true;
+        }else {
+            return false;
+        }
+    }
+
     // Getter
     public int get_Length() {
         return Length;
