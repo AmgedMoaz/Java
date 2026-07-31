@@ -17,6 +17,13 @@ public class Room {
         ob.Length = 10;
         ob.Width = 7;
      }
+     public boolean isEqual(Room ob) {
+        if(this.Width == ob.Width && this.Length == ob.Length) {
+            return true;
+        }else {
+            return false;
+        }
+     }
 
     // Getter
      public int get_Length() {
