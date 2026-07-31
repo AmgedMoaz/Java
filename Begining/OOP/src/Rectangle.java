@@ -1,9 +1,12 @@
  // Write a simple class and show Setter & Getter methods
 
 public class Rectangle {
+
+    // fields
     private double width;
     private double length;
 
+    // Setter
     public void set_width(double w) {
         width = w;
     }
@@ -11,21 +14,26 @@ public class Rectangle {
         length = l;
     }
 
+    // Add isEqual method to compare between objects
     public boolean isEqual(Rectangle ob) {
         if(this.length == ob.length && this.width == ob.width) {
             return true;
         }else {
             return false;
         }
-
     }
+
+    // Getter
     public double get_width() {
         return width;
     }
     public double get_length() {
         return length;
     }
+
+    // Calculator the area of rectangle
     public double Area() {
         return (width*length);
     }
+
 }
