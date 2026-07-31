@@ -2,6 +2,7 @@
 
 public class Employee {
 
+    // fields
     private int id;
     private String name;
     private double salary;
@@ -10,35 +11,35 @@ public class Employee {
 
     /*
      default constructor
-       public Employee() {
        id = 0;
        name = null;
        salary = 0.0;
        bonus = 0.0f;
        isActive = false;
-       **(Array or string or any reference is NULL)**
-       }
+       **(Array or string or any reference is null)**
      */
 
+    // Default constructor
     public Employee() {
 
     }
 
+    // Overloading constructors
     public Employee(int i , String n) {
         id = i;
         name = n;
     }
-
     public Employee(int i , String n , double s) {
         this(i,n);
         salary = s;
     }
-
     public Employee(int i , String n , double s , float b , boolean a) {
         this(i,n,s);
         bonus = b;
         isActive = a;
     }
+
+    // Display method
     public void display() {
         System.out.println("Employee name is : " + name);
         System.out.println("Employee id is : " + id);
