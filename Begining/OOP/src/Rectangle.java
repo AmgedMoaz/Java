@@ -1,4 +1,4 @@
- // Write a simple class and show Setter & Getter methods
+ // Write a simple class and show Setter & Getter & comparing  methods
 
 public class Rectangle {
 
