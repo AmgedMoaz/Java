@@ -1,6 +1,6 @@
- // Write a simple class and show Setter & Getter & comparing  methods
+ // Write a simple class and show Setter & Getter & comparing & copying methods
 
-public class Rectangle {
+ public class Rectangle {
 
     // fields
     private double width;
