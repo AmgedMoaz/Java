@@ -6,6 +6,12 @@ public class Rectangle {
     private double width;
     private double length;
 
+    // Copy constructor
+    public Rectangle(Rectangle source) {
+        length = source.length;
+        width = source.width;
+    }
+
     // Setter
     public void set_width(double w) {
         width = w;
