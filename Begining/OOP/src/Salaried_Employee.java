@@ -32,4 +32,10 @@ public class Salaried_Employee extends Derived_Employee {
         return deduction;
     }
 
+    // Overriding method
+    @Override
+    public double getSalary() {
+        return (super.getSalary() + bonus - deduction);
+    }
+
 }
