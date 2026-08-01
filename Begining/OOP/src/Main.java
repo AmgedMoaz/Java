@@ -59,7 +59,7 @@ public class Main {
       */
 
       /*      [ Class Employee ]
-      Employee ob = new Employee();
+      Employee ob = new Employee();  // Default features
       ob.display();
 
       ob = new Employee(152300032,"Amged");
@@ -75,7 +75,7 @@ public class Main {
       /*    [Class Plane ]
       int no = Plane.get_no_of_planes();
 
-      Plane Ex = new Plane();
+      Plane Ex = new Plane();  // Default features except (no_of_planes)
 
       System.out.print("Enter plane maker 1 : ");
       String ma = input.next();
@@ -144,7 +144,7 @@ public class Main {
       // Shape 1
       Hall ob1 = new Hall(40,30);
       Hall ob2 = new Hall(50,60);
-      Hall ob3 = new Hall();
+      Hall ob3 = new Hall();  // Default features
       Hall ob4 = ob3.add(ob1,ob2);
       System.out.println("Shape 1");
       System.out.println("The total hall width is : " + ob4.get_Width() + " m");
@@ -176,8 +176,9 @@ public class Main {
       System.out.println("\n");
       */
 
-      Person ob1 = new Person();
-      Person ob2 = new Person("Egypt","Menofia",21,"Moaz","Amged");
+      /*     [ Class Person ]
+      Person ob1 = new Person(); // Default features
+      Person ob2 = new Person("Amged","Moaz",21,"Menofia","Egypt");
 
       System.out.println( "This object is of " + ob1.getClass());
       System.out.println( "First name is : " + ob1.getFirst_name());
@@ -194,7 +195,39 @@ public class Main {
       System.out.println( "Address is : " + ob2.getAddress());
       System.out.println( "Nationality  is : " + ob2.getNationality());
       System.out.println();
+       */
 
+      /*   [ Class Student ]
+      Student ob1 = new Student();  // Default features
+      Student ob2 = new Student("Amged","Moaz",21,"Menofia","Egypt",3,3.2,"software");
+
+      System.out.println( "This object is of " + ob1.getClass());
+      System.out.println( "First name is : " + ob1.getFirst_name());
+      System.out.println( "Last name is : " + ob1.getSecond_name());
+      System.out.println( "Age is : " + ob1.getAge());
+      System.out.println( "Address is : " + ob1.getAddress());
+      System.out.println( "Nationality  is : " + ob1.getNationality());
+      System.out.println( "Level is : " + ob1.getLevel());
+      System.out.println( "GPA is : " + ob1.getGpa());
+      System.out.println( "Specialization is : " + ob1.getSpecialization());
+      System.out.println();
+
+      System.out.println( "This object is of " + ob2.getClass());
+      System.out.println( "First name is : " + ob2.getFirst_name());
+      System.out.println( "Last name is : " + ob2.getSecond_name());
+      System.out.println( "Age is : " + ob2.getAge());
+      System.out.println( "Address is : " + ob2.getAddress());
+      System.out.println( "Nationality  is : " + ob2.getNationality());
+      System.out.println( "Level is : " + ob2.getLevel());
+      System.out.println( "GPA is : " + ob2.getGpa());
+      System.out.println( "Specialization is : " + ob2.getSpecialization());
+      System.out.println();
+
+      ob2.setGpa(2.45);
+      System.out.println( "GPA after modified is : " + ob2.getGpa());
+      ob2.setAge(22);
+      System.out.println( "Age after modified is : " + ob2.getAge());
+      */
 
   }
 
