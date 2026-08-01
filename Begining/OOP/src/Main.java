@@ -7,8 +7,7 @@ public class Main {
 
   public static void main(String[] args) {
 
-      /*
-    //    [ Class Rectangle ]
+      /*    [ Class Rectangle ]
      Rectangle ob = new Rectangle();
       System.out.print("Enter double width : ");
       double Width = input.nextDouble();
@@ -141,7 +140,7 @@ public class Main {
       System.out.println();
        */
 
-      /*
+      /*    [ Class Hall ]
       // Shape 1
       Hall ob1 = new Hall(40,30);
       Hall ob2 = new Hall(50,60);
@@ -176,6 +175,26 @@ public class Main {
       System.out.println("The total hall Length is : " + ob2.get_Length() + " m");
       System.out.println("\n");
       */
+
+      Person ob1 = new Person();
+      Person ob2 = new Person("Egypt","Menofia",21,"Moaz","Amged");
+
+      System.out.println( "This object is of " + ob1.getClass());
+      System.out.println( "First name is : " + ob1.getFirst_name());
+      System.out.println( "Last name is : " + ob1.getSecond_name());
+      System.out.println( "Age is : " + ob1.getAge());
+      System.out.println( "Address is : " + ob1.getAddress());
+      System.out.println( "Nationality  is : " + ob1.getNationality());
+      System.out.println();
+
+      System.out.println( "This object is of " + ob2.getClass());
+      System.out.println( "First name is : " + ob2.getFirst_name());
+      System.out.println( "Last name is : " + ob2.getSecond_name());
+      System.out.println( "Age is : " + ob2.getAge());
+      System.out.println( "Address is : " + ob2.getAddress());
+      System.out.println( "Nationality  is : " + ob2.getNationality());
+      System.out.println();
+
 
   }
 
