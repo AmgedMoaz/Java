@@ -1,4 +1,4 @@
- // Write a Derived class and add some features
+ // Write a Derived class from Person class and add some features
 
 public class Student extends Person {
 
