@@ -15,12 +15,12 @@ public class Person {
     }
 
     // Overloading constructor
-    public Person(String nation, String address, int age, String second_name, String first_name) {
-        nationality = nation;
-        this.address = address;
-        this.age = age;
-        this.second_name = second_name;
+    public Person(String first_name , String second_name , int age , String address , String nation) {
         this.first_name = first_name;
+        this.second_name = second_name;
+        this.age = age;
+        this.address = address;
+        nationality = nation;
     }
 
     //Setters
