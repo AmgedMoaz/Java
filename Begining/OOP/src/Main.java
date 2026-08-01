@@ -230,7 +230,7 @@ public class Main {
       System.out.println( "Age after modified is : " + ob2.getAge());
       */
 
-      /*
+      /*  [ Class Derived_Employee ]
       Derived_Employee ob1 = new Derived_Employee();
       Derived_Employee ob2 = new Derived_Employee("Amged","Moaz",21,"Menofia","Egypt",12.400,"Excellent","Software_Engineer");
 
@@ -254,6 +254,37 @@ public class Main {
       System.out.println( "Salary is : " + ob2.getSalary());
       System.out.println( "Rank is : " + ob2.getRank());
       System.out.println( "Job is : " + ob2.getJob());
+      System.out.println();
+       */
+
+      /*    [ Class Salaried_Employee ]
+      Salaried_Employee ob1 = new Salaried_Employee();
+      Salaried_Employee ob2 = new Salaried_Employee("Amged","Moaz",21,"Menofia","Egypt",12400.0,"Excellent","Software_Engineer",2400.0,0.0);
+
+      System.out.println( "This object is of " + ob1.getClass());
+      System.out.println( "First name is : " + ob1.getFirst_name());
+      System.out.println( "Last name is : " + ob1.getSecond_name());
+      System.out.println( "Age is : " + ob1.getAge());
+      System.out.println( "Address is : " + ob1.getAddress());
+      System.out.println( "Nationality  is : " + ob1.getNationality());
+      System.out.println( "Salary is : " + ob1.getSalary());
+      System.out.println( "Rank is : " + ob1.getRank());
+      System.out.println( "Jop is : " + ob1.getJob());
+      System.out.println( "Bonus is : " + ob1.getBonus());
+      System.out.println( "Deduction is : " + ob1.getDeduction());
+      System.out.println();
+
+      System.out.println( "This object is of " + ob2.getClass());
+      System.out.println( "First name is : " + ob2.getFirst_name());
+      System.out.println( "Last name is : " + ob2.getSecond_name());
+      System.out.println( "Age is : " + ob2.getAge());
+      System.out.println( "Address is : " + ob2.getAddress());
+      System.out.println( "Nationality  is : " + ob2.getNationality());
+      System.out.println( "Salary is : " + ob2.getSalary());
+      System.out.println( "Rank is : " + ob2.getRank());
+      System.out.println( "Jop is : " + ob2.getJob());
+      System.out.println( "Bonus is : " + ob2.getBonus());
+      System.out.println( "Deduction is : " + ob2.getDeduction());
       System.out.println();
        */
 
