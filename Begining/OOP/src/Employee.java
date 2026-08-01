@@ -10,12 +10,11 @@ public class Employee {
     private boolean isActive;
 
     /*
-     default constructor
-       id = 0;
-       name = null;
-       salary = 0.0;
-       bonus = 0.0f;
-       isActive = false;
+     Default features
+       int      // 0
+       double   // 0.0
+       float    // 0.0f
+       boolean  // false
        **(Array or string or any reference is null)**
      */
 
