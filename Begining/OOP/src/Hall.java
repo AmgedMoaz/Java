@@ -6,7 +6,7 @@ public class Hall {
     private int Length;
     private int Width;
 
-    // Normal constructor
+    // Default constructor
     public Hall() {}
 
     // Overloading constructor
