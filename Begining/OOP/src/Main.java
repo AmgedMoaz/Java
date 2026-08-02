@@ -288,6 +288,13 @@ public class Main {
       System.out.println();
        */
 
+      /*   [ Derived_Rectangle class ]
+      Derived_Rectangle ob2 = new Derived_Rectangle();
+      ob2.setLength(12.4);
+      ob2.setWidth(7.2);
+      System.out.println(ob2.getArea());
+       */
+
   }
 
 }
