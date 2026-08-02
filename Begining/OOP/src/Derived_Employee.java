@@ -34,6 +34,11 @@ public class Derived_Employee extends Person {
     public double getSalary() {
         return salary;
     }
+    // Impossible overriding method in Hourly_Employee class
+    public final double get_Salary() {
+        // return (hours * hour_rate)
+        return 1;
+    }
     public String getRank() {
         return rank;
     }
