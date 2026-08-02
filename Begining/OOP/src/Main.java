@@ -295,6 +295,13 @@ public class Main {
       System.out.println(ob2.getArea());
        */
 
+      /*
+      Circle ob = new Circle();
+      ob.set_Edge(7.4);
+      System.out.println("The area is : " + ob.getArea());
+      System.out.println("The Perimeter is : " + ob.getPerimeter());
+       */
+
   }
 
 }
