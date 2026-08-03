@@ -1,6 +1,6 @@
  // Write a implementation class for interface and implement his method
 
-public class CD implements RetaiItem {
+public class CD implements RetaiItem , Displayable {
 
     // fields
     private String title;
@@ -25,9 +25,17 @@ public class CD implements RetaiItem {
         return artist;
     }
 
-    // Implementation method
+    // Implementation method 1
     public double get_itemPrice() {
         return price;
+    }
+
+    // // Implementation method 2
+    public void display() {
+        System.out.println("Store : " + Store_name);
+        System.out.println("Title : " + title);
+        System.out.println("Artist : " + artist);
+        System.out.println("Price : " + price);
     }
 
 }
