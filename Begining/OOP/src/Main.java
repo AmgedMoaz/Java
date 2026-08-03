@@ -315,6 +315,18 @@ public class Main {
       System.out.println();
        */
 
+      /*     [ Class RegisterForm ]
+      RegisterForm ob = new RegisterForm();
+      ob.display();
+      System.out.println();
+
+      Course ob1 = Course.Mobile;
+      Course ob2 = Course.AI;
+      System.out.println(ob1.equals(ob2));
+      System.out.println(ob2.compareTo(ob1));
+      System.out.println(ob1.compareTo(ob2));
+       */
+
   }
 
 }
