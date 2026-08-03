@@ -304,9 +304,15 @@ public class Main {
 
       /*
       // (X) RetaiItem ob = new RetaiItem();   because that is interface
-      RetaiItem ob = new CD("Modern Football","Johan Cruff",400.0);
+      RetaiItem ob1 = new CD("Modern Football","Johan Cruff",700.0);
       //   الكلام اللي مكتوب فوق صحيح لأن ال ob نوعه RetaiItem اه بس بيشاور علي CD Class
-      System.out.println(ob.get_itemPrice());
+      System.out.println(ob1.get_itemPrice());
+      System.out.println();
+
+      CD ob2 = new CD("Modern Football","Johan Cruff",400.0);
+      // كان ممكن اخلي ob2 نوعه Displayable زي معملت مع ob1 و خليت نوعه RetaiItem
+      ob2.display();
+      System.out.println();
        */
 
   }
