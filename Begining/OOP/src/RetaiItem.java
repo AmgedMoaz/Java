@@ -2,7 +2,7 @@
 
 public interface RetaiItem {
 
-    // fields
+    // Final or static field
     String Store_name = "Delta";
 
     // Method that must be implemented im implementation classes
