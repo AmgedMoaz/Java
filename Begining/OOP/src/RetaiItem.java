@@ -1,4 +1,4 @@
- // Write a interface and a header method that implement in implement classes
+ // Write an interface that contains field and the method that must be implemented
 
 public interface RetaiItem {
 
