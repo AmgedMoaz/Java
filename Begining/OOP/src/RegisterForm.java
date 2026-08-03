@@ -21,4 +21,12 @@ public class RegisterForm {
         student_semester = Semester.Autumn;
     }
 
+    // Display method
+    public void display() {
+        System.out.println("Nane : " + student_name);
+        System.out.println("Gender : " + student_gender);
+        System.out.println("Course : " + student_course);
+        System.out.println("Semester : " + student_semester);
+    }
+
 }
