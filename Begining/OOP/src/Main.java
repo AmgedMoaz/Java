@@ -302,6 +302,13 @@ public class Main {
       System.out.println("The Perimeter is : " + ob.getPerimeter());
        */
 
+      /*
+      // (X) RetaiItem ob = new RetaiItem();   because that is interface
+      RetaiItem ob = new CD("Modern Football","Johan Cruff",400.0);
+      //   الكلام اللي مكتوب فوق صحيح لأن ال ob نوعه RetaiItem اه بس بيشاور علي CD Class
+      System.out.println(ob.get_itemPrice());
+       */
+
   }
 
 }
