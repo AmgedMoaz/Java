@@ -1,5 +1,6 @@
  // Write a main class for many classes
 
+ import java.util.InputMismatchException;
  import java.util.Scanner;
 
 public class Main {
@@ -331,18 +332,29 @@ public class Main {
       /*
       int x = 10;
       int y = 0;
-      System.out.println(x/y);   Exception will found in run_time and crash the program
+      // System.out.println(x/y);   Exception will found in run_time and crash the program
 
       try {
-          int x = 10;
-          int y = 0;
+          int x;
+          int y;
+          System.out.print("Enter value of number 1 : ");
+          x = input.nextInt();
+          System.out.print("Enter value of number 2 : ");
+          y = input.nextInt();
           System.out.println(x/y);
       }
       catch (ArithmeticException e) {
           System.out.println("Sorry ,Division by zero not allowed");
       }
+      catch (InputMismatchException e) {
+          System.out.println("Sorry ,Enter only numeric data");
+      }
+       // General handling exception
+      catch(Exception s) {
+          System.out.println(s.getMessage());
+      }
       System.out.println("You're continued");
-       */
+      */
 
   }
 
