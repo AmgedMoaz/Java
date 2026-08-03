@@ -302,7 +302,7 @@ public class Main {
       System.out.println("The Perimeter is : " + ob.getPerimeter());
        */
 
-      /*
+      /*    [ Class CD ]
       // (X) RetaiItem ob = new RetaiItem();   because that is interface
       RetaiItem ob1 = new CD("Modern Football","Johan Cruff",700.0);
       //   الكلام اللي مكتوب فوق صحيح لأن ال ob نوعه RetaiItem اه بس بيشاور علي CD Class
