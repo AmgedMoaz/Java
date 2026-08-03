@@ -327,6 +327,23 @@ public class Main {
       System.out.println(ob1.compareTo(ob2));
        */
 
+      // Exception
+      /*
+      int x = 10;
+      int y = 0;
+      System.out.println(x/y);   Exception will found in run_time and crash the program
+
+      try {
+          int x = 10;
+          int y = 0;
+          System.out.println(x/y);
+      }
+      catch (ArithmeticException e) {
+          System.out.println("Sorry ,Division by zero not allowed");
+      }
+      System.out.println("You're continued");
+       */
+
   }
 
 }
