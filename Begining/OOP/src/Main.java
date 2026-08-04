@@ -376,6 +376,9 @@ public class Main {
       List1.set(0,"Maged");
       List2.set(1,"Hamed");
 
+      List1.remove(1);
+      List2.remove("Moatz");
+
   }
 
 }
