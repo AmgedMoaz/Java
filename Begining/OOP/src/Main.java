@@ -367,11 +367,14 @@ public class Main {
       List1.add("Moaz");
       List1.add("Empire");
 
-      List1.add("Ahmed");
-      List1.add("sayed");
-      List1.add("Mohamed");
-      List1.add("Moatz");
-      List1.add("Victories");
+      List2.add("Ahmed");
+      List2.add("sayed");
+      List2.add("Mohamed");
+      List2.add("Moatz");
+      List2.add("Victories");
+
+      List1.set(0,"Maged");
+      List2.set(1,"Hamed");
 
   }
 
