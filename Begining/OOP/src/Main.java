@@ -357,6 +357,10 @@ public class Main {
       System.out.println("You're continued");
       */
 
+      // Implement ArrayList
+      ArrayList <String> List1 = new ArrayList<String>(); // Size is 10 automatically
+      ArrayList <String> List2 = new ArrayList<String>(24); // Size is 24
+
   }
 
 }
