@@ -382,6 +382,9 @@ public class Main {
       System.out.println("The size of list 1 : " + List1.size());
       System.out.println("The size of list 2 : " + List2.size());
 
+      System.out.println("list 1 : " + List1);
+      System.out.println("list 2 : " + List2);
+
   }
 
 }
