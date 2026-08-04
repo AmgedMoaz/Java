@@ -379,6 +379,9 @@ public class Main {
       List1.remove(1);
       List2.remove("Moatz");
 
+      System.out.println("The size of list 1 : " + List1.size());
+      System.out.println("The size of list 2 : " + List2.size());
+
   }
 
 }
