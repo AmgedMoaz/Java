@@ -1,5 +1,6 @@
  // Write a main class for many classes
 
+ import java.util.ArrayList;
  import java.util.InputMismatchException;
  import java.util.Scanner;
 
