@@ -361,6 +361,18 @@ public class Main {
       ArrayList <String> List1 = new ArrayList<String>(); // Size is 10 automatically
       ArrayList <String> List2 = new ArrayList<String>(24); // Size is 24
 
+      List1.add("Amged");
+      List1.add("Elsayed");
+      List1.add("Mohammed");
+      List1.add("Moaz");
+      List1.add("Empire");
+
+      List1.add("Ahmed");
+      List1.add("sayed");
+      List1.add("Mohamed");
+      List1.add("Moatz");
+      List1.add("Victories");
+
   }
 
 }
