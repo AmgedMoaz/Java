@@ -16,7 +16,7 @@ public class CommissionEmployee extends Employee implements Displayable {
     // Implementing methods
     @Override
     public double Earning() {
-        return (Gross_Sales * Commission_rate);
+        return (Gross_Sales * Commission_rate/100);
     }
     @Override
     public void display_All_details() {
