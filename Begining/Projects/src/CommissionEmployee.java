@@ -29,6 +29,9 @@ public class CommissionEmployee extends Employee implements Displayable {
     @Override
     public void display_All_details() {
         System.out.println("Company Name : " + companyName + "\nFax : " + fax);
+        System.out.println("Name : " + getName());
+        System.out.println("Address : " + getAddress());
+        System.out.println("SSN : " + getSSN());
         System.out.println("Gross Sales : " + Gross_Sales);
         System.out.println("Commission rate : " + Commission_rate);
     }
