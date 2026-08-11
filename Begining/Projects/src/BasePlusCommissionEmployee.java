@@ -22,9 +22,8 @@ public class BasePlusCommissionEmployee extends CommissionEmployee {
     }
     @Override
     public void display_All_details() {
-        System.out.println("Company Name : " + companyName + "\nFax : " + fax);
-        System.out.println("Gross Sales : " + super.getGross_Sales());
-        System.out.println("Commission rate : " + super.getCommission_rate());
+        super.display_All_details();
+        System.out.println("Base salary : " + base);
     }
     @Override
     public void display_Earning() {
