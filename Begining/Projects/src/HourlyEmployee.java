@@ -27,6 +27,10 @@ public class HourlyEmployee extends Employee implements Displayable {
     @Override
     public void display_All_details() {
         System.out.println("Company Name : " + companyName + "\nFax : " + fax);
+        System.out.println("Name : " + getName());
+        System.out.println("Address : " + getAddress());
+        System.out.println("SSN : " + getSSN());
+        System.out.println("Company Name : " + companyName + "\nFax : " + fax);
         System.out.println("Number of hours : " + No_of_hours);
         System.out.println("Hour Rate : " + Hour_rate);
     }
