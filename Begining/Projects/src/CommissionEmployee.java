@@ -13,6 +13,14 @@ public class CommissionEmployee extends Employee implements Displayable {
         this.Commission_rate = Commission_rate;
     }
 
+    // Getters
+    public double getGross_Sales() {
+        return Gross_Sales;
+    }
+    public double getCommission_rate() {
+        return Commission_rate;
+    }
+
     // Implementing methods
     @Override
     public double Earning() {
