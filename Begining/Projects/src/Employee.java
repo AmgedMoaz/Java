@@ -8,7 +8,7 @@ public abstract class Employee {
     private int SSN;
 
     // Default constructor
-    public Employee() {};
+    public Employee() {}
 
     // Overloading constructor
     public Employee(String name , String address , int SSN) {
