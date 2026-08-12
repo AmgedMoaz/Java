@@ -4,7 +4,7 @@ public class HourlyEmployee extends Employee implements Displayable {
 
     // Fields
     private int No_of_hours;
-    private double Hour_rate;
+    private int Hour_rate;
 
     // Overloading constructor
     public HourlyEmployee(String name , String address , int SSN) {
@@ -15,7 +15,7 @@ public class HourlyEmployee extends Employee implements Displayable {
     public void setNo_of_hours(int no_of_hours) {
         No_of_hours = no_of_hours;
     }
-    public void setHour_rare(double hour_rare) {
+    public void setHour_rare(int hour_rare) {
         Hour_rate = hour_rare;
     }
 
@@ -35,7 +35,7 @@ public class HourlyEmployee extends Employee implements Displayable {
     }
     @Override
     public void display_Earning() {
-        System.out.println( No_of_hours * (Hour_rate/100) );
+        System.out.println( No_of_hours * (Hour_rate) );
     }
 
 }
